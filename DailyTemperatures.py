@@ -7,23 +7,4 @@ class Solution:
                 res[stack[-1]] = i-stack[-1]
                 stack.pop()
             stack.append(i)
-        return res
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
+        return res            
